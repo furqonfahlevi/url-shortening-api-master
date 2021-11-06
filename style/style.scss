@@ -251,17 +251,18 @@ header {
     padding-top: 25px;
     .urlShorten {
       margin: 24px 0;
-      padding: 0 30px;
+      padding: 30px;
       width: 100%;
-      height: 73px;
       background-color: white;
       border-radius: 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 20px;
 
       .web-url {
         font-size: 1.125em;
+        word-break: break-all;
       }
 
       .line-seperator {
@@ -759,6 +760,7 @@ footer {
         flex-direction: column;
         padding: 0;
         height: 100%;
+        gap: 0;
 
         .web-url {
           padding: 15px;
