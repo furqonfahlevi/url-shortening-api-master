@@ -268,9 +268,8 @@ header nav .menu-container {
 
 .shortenURL-section .shortenURL .urlShorten {
   margin: 24px 0;
-  padding: 0 30px;
+  padding: 30px;
   width: 100%;
-  height: 73px;
   background-color: white;
   border-radius: 10px;
   display: -webkit-box;
@@ -282,10 +281,12 @@ header nav .menu-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 20px;
 }
 
 .shortenURL-section .shortenURL .urlShorten .web-url {
   font-size: 1.125em;
+  word-break: break-all;
 }
 
 .shortenURL-section .shortenURL .urlShorten .line-seperator {
@@ -791,6 +792,7 @@ footer .footer .footer-content .socmed-footer-logo svg:hover {
             flex-direction: column;
     padding: 0;
     height: 100%;
+    gap: 0;
   }
   .shortenURL-section .shortenURL .urlShorten .web-url {
     padding: 15px;
